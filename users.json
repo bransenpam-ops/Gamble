@@ -1,0 +1,2181 @@
+[
+  {
+    "id": "388af741-e43e-4ab4-affe-db8cda21f99a",
+    "username": "monkeylovver422",
+    "discordId": null,
+    "discordTag": null,
+    "balance": 0,
+    "totalWagered": 0,
+    "totalWon": 0,
+    "totalLost": 0,
+    "createdAt": "2026-02-09T05:04:33.304Z",
+    "gameHistory": []
+  },
+  {
+    "id": "ff38fb76-e7d8-4c90-9757-68dbe2dab3bf",
+    "username": ".monkeylovver422",
+    "balance": 2000000,
+    "totalWagered": 2768466,
+    "totalWon": null,
+    "totalLost": 842044,
+    "createdAt": "2026-02-09T05:04:50.064Z",
+    "gameHistory": [
+      {
+        "type": "slots",
+        "reels": [
+          "🍓",
+          "🍌",
+          "🍓"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:08:35.349Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍌",
+          "🍊",
+          "🍌"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:08:38.537Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍊",
+          "🍎",
+          "🍓"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:08:41.022Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍎",
+          "🍌",
+          "🍎"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:08:43.342Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍎",
+          "🍓",
+          "🍎"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:08:46.174Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍋",
+          "🍋",
+          "🍎"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:08:48.359Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍓",
+          "🍓",
+          "🍌"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:08:50.774Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍊",
+          "🍌",
+          "🍎"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:08:53.118Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍎",
+          "🍎",
+          "🍌"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:08:55.412Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍓",
+          "🍋",
+          "🍎"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:08:57.514Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍎",
+          "🍎",
+          "🍋"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:08:59.548Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍋",
+          "🍓",
+          "🍓"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:09:01.695Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍊",
+          "🍋",
+          "🍊"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:09:03.779Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍓",
+          "🍌",
+          "🍋"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:09:05.974Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍎",
+          "🍊",
+          "🍓"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:09:08.001Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍓",
+          "🍌",
+          "🍋"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:09:10.092Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍓",
+          "🍊",
+          "🍎"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:09:12.500Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍓",
+          "🍊",
+          "🍋"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:09:14.659Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍋",
+          "🍎",
+          "🍓"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:09:16.743Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍋",
+          "🍌",
+          "🍌"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:09:18.871Z"
+      },
+      {
+        "type": "number",
+        "picked": 7,
+        "drawn": 7,
+        "wager": 10,
+        "won": true,
+        "winnings": 100,
+        "timestamp": "2026-02-09T05:09:26.479Z"
+      },
+      {
+        "type": "dice",
+        "roll": 3,
+        "wager": 20,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:09:37.719Z"
+      },
+      {
+        "type": "dice",
+        "roll": 1,
+        "wager": 22,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:09:47.833Z"
+      },
+      {
+        "type": "dice",
+        "roll": 1,
+        "wager": 22,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:09:53.299Z"
+      },
+      {
+        "type": "dice",
+        "roll": 2,
+        "wager": 2,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:09:58.218Z"
+      },
+      {
+        "type": "dice",
+        "roll": 6,
+        "wager": 22,
+        "won": true,
+        "winnings": 44,
+        "timestamp": "2026-02-09T05:10:04.399Z"
+      },
+      {
+        "type": "dice",
+        "roll": 1,
+        "wager": 22,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:10:09.073Z"
+      },
+      {
+        "type": "plinko",
+        "slot": 2,
+        "multiplier": "1.20",
+        "wager": 1,
+        "winnings": 1,
+        "timestamp": "2026-02-09T05:20:58.802Z"
+      },
+      {
+        "type": "mines",
+        "difficulty": "easy",
+        "revealed": 21,
+        "hit": false,
+        "wager": 1,
+        "winnings": 1,
+        "timestamp": "2026-02-09T05:21:07.842Z"
+      },
+      {
+        "type": "plinko",
+        "slot": 3,
+        "multiplier": "1.50",
+        "wager": 1,
+        "winnings": 1,
+        "timestamp": "2026-02-09T05:25:10.165Z"
+      },
+      {
+        "type": "plinko",
+        "slot": 7,
+        "multiplier": "0.80",
+        "wager": 1,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:25:14.649Z"
+      },
+      {
+        "type": "plinko",
+        "slot": 0,
+        "multiplier": "0.50",
+        "wager": 1,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:25:18.683Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "easy",
+        "correctChoices": 2,
+        "required": 3,
+        "wager": 1,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:25:30.911Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "easy",
+        "correctChoices": 1,
+        "required": 3,
+        "wager": 1,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:25:35.083Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "easy",
+        "correctChoices": 0,
+        "required": 3,
+        "wager": 1,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:25:37.367Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "easy",
+        "correctChoices": 2,
+        "required": 3,
+        "wager": 1,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:25:41.515Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "hard",
+        "correctChoices": 0,
+        "required": 5,
+        "wager": 1,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:25:47.019Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "hard",
+        "correctChoices": 0,
+        "required": 5,
+        "wager": 1,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:25:49.776Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "hard",
+        "correctChoices": 0,
+        "required": 5,
+        "wager": 1,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:25:52.741Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "hard",
+        "correctChoices": 1,
+        "required": 5,
+        "wager": 1,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:25:57.720Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "hard",
+        "correctChoices": 0,
+        "required": 5,
+        "wager": 1,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:26:01.005Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "hard",
+        "correctChoices": 0,
+        "required": 5,
+        "wager": 1,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:26:03.545Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "hard",
+        "correctChoices": 0,
+        "required": 5,
+        "wager": 1,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:26:05.340Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "hard",
+        "correctChoices": 0,
+        "required": 5,
+        "wager": 1,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:26:07.220Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "hard",
+        "correctChoices": 0,
+        "required": 5,
+        "wager": 1,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:26:08.460Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "hard",
+        "correctChoices": 0,
+        "required": 5,
+        "wager": 1,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:26:09.793Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "hard",
+        "correctChoices": 0,
+        "required": 5,
+        "wager": 1,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:26:11.766Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "hard",
+        "correctChoices": 1,
+        "required": 5,
+        "wager": 1,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:26:19.292Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "hard",
+        "correctChoices": 1,
+        "required": 5,
+        "wager": 1,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:26:20.805Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "hard",
+        "correctChoices": 5,
+        "required": 5,
+        "wager": 1,
+        "winnings": 5,
+        "won": true,
+        "timestamp": "2026-02-09T05:26:26.346Z"
+      },
+      {
+        "type": "dice",
+        "roll": 1,
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:26:44.928Z"
+      },
+      {
+        "type": "dice",
+        "roll": 3,
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:26:51.060Z"
+      },
+      {
+        "type": "dice",
+        "roll": 2,
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:27:01.097Z"
+      },
+      {
+        "type": "dice",
+        "roll": 4,
+        "wager": 91,
+        "won": true,
+        "winnings": 182,
+        "timestamp": "2026-02-09T05:27:11.579Z"
+      },
+      {
+        "type": "dice",
+        "roll": 5,
+        "wager": 182,
+        "won": true,
+        "winnings": 364,
+        "timestamp": "2026-02-09T05:27:19.926Z"
+      },
+      {
+        "type": "dice",
+        "roll": 5,
+        "wager": 2,
+        "won": true,
+        "winnings": 4,
+        "timestamp": "2026-02-09T05:27:32.886Z"
+      },
+      {
+        "type": "dice",
+        "roll": 3,
+        "wager": 22,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:27:39.169Z"
+      },
+      {
+        "type": "dice",
+        "roll": 5,
+        "wager": 44,
+        "won": true,
+        "winnings": 88,
+        "timestamp": "2026-02-09T05:27:43.871Z"
+      },
+      {
+        "type": "dice",
+        "roll": 4,
+        "wager": 22,
+        "won": true,
+        "winnings": 44,
+        "timestamp": "2026-02-09T05:27:49.285Z"
+      },
+      {
+        "type": "dice",
+        "roll": 5,
+        "wager": 148,
+        "won": true,
+        "winnings": 296,
+        "timestamp": "2026-02-09T05:28:02.603Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍊",
+          "🍎",
+          "🍎"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:28:33.373Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍎",
+          "🍓",
+          "🍓"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:28:35.627Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍓",
+          "🍓",
+          "🍊"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:28:37.695Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍎",
+          "🍋",
+          "🍎"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:28:39.678Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍓",
+          "🍊",
+          "🍌"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:28:41.685Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍋",
+          "🍓",
+          "🍋"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:28:43.637Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍌",
+          "🍓",
+          "🍎"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:28:45.848Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍌",
+          "🍋",
+          "🍊"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:28:47.757Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍊",
+          "🍋",
+          "🍌"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:28:50.171Z"
+      },
+      {
+        "type": "crash",
+        "cashoutAt": "1.37",
+        "crashedAt": "4.87",
+        "wager": 1,
+        "winnings": 1,
+        "won": true,
+        "timestamp": "2026-02-09T05:29:07.072Z"
+      },
+      {
+        "type": "crash",
+        "cashoutAt": "1.30",
+        "crashedAt": "2.40",
+        "wager": 1,
+        "winnings": 1,
+        "won": true,
+        "timestamp": "2026-02-09T05:29:10.273Z"
+      },
+      {
+        "type": "crash",
+        "cashoutAt": "1.35",
+        "crashedAt": "3.52",
+        "wager": 1,
+        "winnings": 1,
+        "won": true,
+        "timestamp": "2026-02-09T05:29:12.655Z"
+      },
+      {
+        "type": "crash",
+        "cashoutAt": "1.29",
+        "crashedAt": "1.82",
+        "wager": 1,
+        "winnings": 1,
+        "won": true,
+        "timestamp": "2026-02-09T05:29:15.905Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍊",
+          "🍎",
+          "🍊"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:29:19.418Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍓",
+          "🍓",
+          "🍓"
+        ],
+        "wager": 1,
+        "won": true,
+        "winnings": 10,
+        "timestamp": "2026-02-09T05:29:22.886Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍋",
+          "🍓",
+          "🍊"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:29:26.786Z"
+      },
+      {
+        "type": "coinflip",
+        "side": "heads",
+        "wager": 2,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:36:13.043Z"
+      },
+      {
+        "type": "coinflip",
+        "side": "tails",
+        "wager": 2,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:36:18.976Z"
+      },
+      {
+        "type": "coinflip",
+        "side": "heads",
+        "wager": 2,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:36:22.530Z"
+      },
+      {
+        "type": "coinflip",
+        "side": "tails",
+        "wager": 2,
+        "won": true,
+        "winnings": 4,
+        "timestamp": "2026-02-09T05:36:26.340Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍓",
+          "🍎",
+          "🍌"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:36:35.165Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍋",
+          "🍓",
+          "🍊"
+        ],
+        "wager": 1,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:36:39.667Z"
+      },
+      {
+        "type": "plinko",
+        "slot": 0,
+        "multiplier": "0.50",
+        "wager": 1,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:36:49.867Z"
+      },
+      {
+        "type": "plinko",
+        "slot": 2,
+        "multiplier": "1.20",
+        "wager": 1,
+        "winnings": 1,
+        "timestamp": "2026-02-09T05:36:51.708Z"
+      },
+      {
+        "type": "plinko",
+        "slot": 7,
+        "multiplier": "0.80",
+        "wager": 1,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:36:55.142Z"
+      },
+      {
+        "type": "mines",
+        "difficulty": "easy",
+        "revealed": 21,
+        "hit": false,
+        "wager": 1,
+        "winnings": 1,
+        "timestamp": "2026-02-09T05:37:01.755Z"
+      },
+      {
+        "type": "crash",
+        "cashoutAt": "1.49",
+        "crashedAt": "2.97",
+        "wager": 2,
+        "winnings": 2,
+        "won": true,
+        "timestamp": "2026-02-09T05:37:16.216Z"
+      },
+      {
+        "type": "towers",
+        "difficulty": "easy",
+        "correctChoices": 2,
+        "required": 3,
+        "wager": 2,
+        "winnings": 0,
+        "won": false,
+        "timestamp": "2026-02-09T05:37:28.937Z"
+      },
+      {
+        "type": "dice",
+        "roll": 4,
+        "wager": 2,
+        "won": true,
+        "winnings": 4,
+        "timestamp": "2026-02-09T05:37:42.390Z"
+      },
+      {
+        "type": "dice",
+        "roll": 5,
+        "wager": 2,
+        "won": true,
+        "winnings": 4,
+        "timestamp": "2026-02-09T05:37:47.218Z"
+      },
+      {
+        "type": "coinflip",
+        "side": "heads",
+        "wager": 2,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T05:56:48.719Z"
+      },
+      {
+        "type": "keno",
+        "selectedNumbers": [
+          6,
+          7,
+          8,
+          1,
+          3,
+          2,
+          4,
+          9,
+          10,
+          5
+        ],
+        "drawnNumbers": [
+          3,
+          6,
+          7,
+          9,
+          11,
+          13,
+          15,
+          16,
+          17,
+          18
+        ],
+        "matches": 4,
+        "multiplier": 5,
+        "wager": 2,
+        "won": true,
+        "winnings": 10,
+        "timestamp": "2026-02-09T05:58:51.304Z"
+      },
+      {
+        "type": "keno",
+        "selectedNumbers": [
+          16,
+          17,
+          11,
+          12
+        ],
+        "drawnNumbers": [
+          2,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          14,
+          16,
+          19
+        ],
+        "matches": 2,
+        "multiplier": 1,
+        "wager": 2,
+        "won": true,
+        "winnings": 2,
+        "timestamp": "2026-02-09T05:59:00.066Z"
+      },
+      {
+        "type": "keno",
+        "selectedNumbers": [
+          17,
+          16,
+          11,
+          12
+        ],
+        "drawnNumbers": [
+          2,
+          4,
+          5,
+          6,
+          9,
+          11,
+          17,
+          18,
+          19,
+          20
+        ],
+        "matches": 2,
+        "multiplier": 1,
+        "wager": 2,
+        "won": true,
+        "winnings": 2,
+        "timestamp": "2026-02-09T05:59:05.129Z"
+      },
+      {
+        "type": "keno",
+        "selectedNumbers": [
+          17,
+          16,
+          11,
+          12,
+          13,
+          18
+        ],
+        "drawnNumbers": [
+          4,
+          5,
+          9,
+          10,
+          12,
+          14,
+          15,
+          18,
+          19,
+          20
+        ],
+        "matches": 2,
+        "multiplier": 1,
+        "wager": 2,
+        "won": true,
+        "winnings": 2,
+        "timestamp": "2026-02-09T05:59:08.801Z"
+      },
+      {
+        "type": "keno",
+        "selectedNumbers": [
+          1,
+          7,
+          3,
+          8,
+          14,
+          18,
+          11,
+          15,
+          10,
+          5
+        ],
+        "drawnNumbers": [
+          3,
+          5,
+          6,
+          7,
+          12,
+          13,
+          14,
+          17,
+          18,
+          19
+        ],
+        "matches": 5,
+        "multiplier": 15,
+        "wager": 22,
+        "won": true,
+        "winnings": 330,
+        "timestamp": "2026-02-09T05:59:19.748Z"
+      },
+      {
+        "type": "mines",
+        "difficulty": "hard",
+        "safeCount": 0,
+        "multiplier": "1.00",
+        "wager": 22,
+        "winnings": 22,
+        "won": true,
+        "timestamp": "2026-02-09T05:59:34.278Z"
+      },
+      {
+        "type": "mines",
+        "difficulty": "hard",
+        "safeCount": 0,
+        "multiplier": "1.00",
+        "wager": 22,
+        "winnings": 22,
+        "won": true,
+        "timestamp": "2026-02-09T06:00:01.964Z"
+      },
+      {
+        "type": "coinflip",
+        "side": "tails",
+        "wager": 22,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T06:00:18.901Z"
+      },
+      {
+        "type": "dice",
+        "roll": 4,
+        "wager": 22,
+        "won": true,
+        "winnings": 44,
+        "timestamp": "2026-02-09T06:00:28.718Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍓",
+          "🍎",
+          "🍊"
+        ],
+        "wager": 2,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T06:01:59.688Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍌",
+          "🍌",
+          "🍌"
+        ],
+        "wager": 2,
+        "won": true,
+        "winnings": 20,
+        "timestamp": "2026-02-09T06:02:27.806Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "7️⃣",
+          "🍊",
+          "💎"
+        ],
+        "multiplier": 0,
+        "wager": 10,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T06:05:17.103Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍯",
+          "🍒",
+          "💎"
+        ],
+        "multiplier": 0,
+        "wager": 10,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T06:05:24.116Z"
+      },
+      {
+        "type": "mines",
+        "difficulty": "easy",
+        "safeCount": 0,
+        "multiplier": "1.00",
+        "wager": 1,
+        "winnings": 1,
+        "won": true,
+        "timestamp": "2026-02-09T06:06:01.191Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍒",
+          "🍊",
+          "💎"
+        ],
+        "multiplier": 0,
+        "wager": 10,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T06:10:02.876Z"
+      },
+      {
+        "type": "crash",
+        "cashoutAt": "1.48",
+        "crashedAt": "4.66",
+        "wager": 5000,
+        "winnings": 7416,
+        "won": true,
+        "timestamp": "2026-02-09T06:10:13.106Z"
+      },
+      {
+        "type": "coinflip",
+        "side": "heads",
+        "wager": 20,
+        "won": true,
+        "winnings": 40,
+        "timestamp": "2026-02-09T06:10:50.796Z"
+      },
+      {
+        "type": "coinflip",
+        "side": "tails",
+        "wager": 20,
+        "won": true,
+        "winnings": 40,
+        "timestamp": "2026-02-09T06:10:59.110Z"
+      },
+      {
+        "type": "coinflip",
+        "side": "tails",
+        "wager": 20,
+        "won": false,
+        "winnings": 0,
+        "timestamp": "2026-02-09T06:11:05.079Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 1000,
+        "won": false,
+        "playerValue": 25,
+        "dealerValue": 11,
+        "winnings": 0,
+        "timestamp": "2026-02-09T06:34:52.042Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 50100,
+        "won": false,
+        "playerValue": 22,
+        "dealerValue": 20,
+        "winnings": 0,
+        "timestamp": "2026-02-09T06:38:03.661Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 15000,
+        "won": true,
+        "playerValue": 19,
+        "dealerValue": 24,
+        "winnings": 30000,
+        "timestamp": "2026-02-09T06:38:14.653Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 100000,
+        "won": false,
+        "playerValue": 24,
+        "dealerValue": 15,
+        "winnings": 0,
+        "timestamp": "2026-02-09T06:39:19.780Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 300000,
+        "won": true,
+        "playerValue": 13,
+        "dealerValue": 24,
+        "winnings": 600000,
+        "timestamp": "2026-02-09T06:39:30.836Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 130,
+        "payout": 13000,
+        "timestamp": "2026-02-09T06:45:36.651Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 1000,
+        "payout": 100000,
+        "timestamp": "2026-02-09T06:47:52.120Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 130,
+        "payout": 13000,
+        "timestamp": "2026-02-09T06:47:58.414Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 1000,
+        "payout": 100000,
+        "timestamp": "2026-02-09T06:48:00.563Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 1000,
+        "payout": 100000,
+        "timestamp": "2026-02-09T06:48:00.780Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 130,
+        "payout": 13000,
+        "timestamp": "2026-02-09T06:52:42.660Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 130,
+        "payout": 13000,
+        "timestamp": "2026-02-09T06:53:04.271Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 130,
+        "payout": 13000,
+        "timestamp": "2026-02-09T06:53:04.721Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 1030526,
+        "won": true,
+        "multiplier": 1000,
+        "payout": 1030526000,
+        "timestamp": "2026-02-09T06:53:29.067Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 1000,
+        "payout": 100000,
+        "timestamp": "2026-02-09T06:53:55.338Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 1000,
+        "payout": 100000,
+        "timestamp": "2026-02-09T06:57:34.435Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:22:49.350Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 4,
+        "payout": 400,
+        "timestamp": "2026-02-09T07:23:20.062Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 26,
+        "payout": 2600,
+        "timestamp": "2026-02-09T07:23:20.595Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 9,
+        "payout": 900,
+        "timestamp": "2026-02-09T07:23:20.694Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:23:22.862Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:23:23.028Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:23:24.512Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:24:13.496Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 2,
+        "payout": 200,
+        "timestamp": "2026-02-09T07:24:14.513Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 4,
+        "payout": 400,
+        "timestamp": "2026-02-09T07:24:16.496Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 2,
+        "payout": 200,
+        "timestamp": "2026-02-09T07:24:17.396Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:24:17.631Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 4,
+        "payout": 400,
+        "timestamp": "2026-02-09T07:24:17.947Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:24:17.962Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 4,
+        "payout": 400,
+        "timestamp": "2026-02-09T07:24:18.112Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:24:18.446Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:24:18.912Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:24:18.996Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 2,
+        "payout": 200,
+        "timestamp": "2026-02-09T07:24:19.363Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:24:43.980Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:24:45.480Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:24:47.496Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 130,
+        "payout": 13000,
+        "timestamp": "2026-02-09T07:24:47.765Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:24:48.180Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:24:48.181Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:24:49.996Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:24:50.964Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:24:51.764Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 9,
+        "payout": 900,
+        "timestamp": "2026-02-09T07:25:05.982Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:25:06.746Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:25:06.830Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:28:28.002Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:28:28.268Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:28:29.335Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 2,
+        "payout": 200,
+        "timestamp": "2026-02-09T07:28:29.685Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:28:30.404Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 26,
+        "payout": 2600,
+        "timestamp": "2026-02-09T07:28:30.670Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:28:30.703Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:28:30.919Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:28:30.984Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:28:31.218Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 4,
+        "payout": 400,
+        "timestamp": "2026-02-09T07:28:33.219Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 4,
+        "payout": 400,
+        "timestamp": "2026-02-09T07:28:33.935Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 4,
+        "payout": 400,
+        "timestamp": "2026-02-09T07:28:34.652Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:28:34.869Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-09T07:28:35.751Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 1000,
+        "won": true,
+        "playerValue": 6,
+        "dealerValue": 26,
+        "winnings": 2000,
+        "timestamp": "2026-02-12T21:39:18.487Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 1000,
+        "won": true,
+        "playerValue": 6,
+        "dealerValue": 28,
+        "winnings": 2000,
+        "timestamp": "2026-02-12T21:39:18.797Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 2000,
+        "won": true,
+        "playerValue": 13,
+        "dealerValue": 23,
+        "winnings": 4000,
+        "timestamp": "2026-02-12T21:39:27.602Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 1000,
+        "won": true,
+        "playerValue": 20,
+        "dealerValue": 18,
+        "winnings": 2000,
+        "timestamp": "2026-02-12T21:39:36.810Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 1000,
+        "won": true,
+        "playerValue": 19,
+        "dealerValue": 23,
+        "winnings": 2000,
+        "timestamp": "2026-02-12T21:39:45.734Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 5000,
+        "won": true,
+        "playerValue": 15,
+        "dealerValue": 24,
+        "winnings": 10000,
+        "timestamp": "2026-02-12T21:39:58.097Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 10000,
+        "won": true,
+        "playerValue": 21,
+        "dealerValue": 17,
+        "winnings": 20000,
+        "timestamp": "2026-02-12T21:40:04.752Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 20000,
+        "won": false,
+        "playerValue": 23,
+        "dealerValue": 18,
+        "winnings": 0,
+        "timestamp": "2026-02-12T21:40:23.031Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 1000,
+        "won": true,
+        "playerValue": 20,
+        "dealerValue": 17,
+        "winnings": 2000,
+        "timestamp": "2026-02-12T21:40:39.890Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-12T21:41:09.667Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 2,
+        "payout": 200,
+        "timestamp": "2026-02-12T21:41:23.251Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 4,
+        "payout": 400,
+        "timestamp": "2026-02-12T21:41:25.435Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-12T21:41:25.734Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-12T21:41:27.051Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-12T21:41:27.534Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-12T21:41:44.375Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-12T21:41:45.709Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 4,
+        "payout": 400,
+        "timestamp": "2026-02-12T21:41:46.025Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 2,
+        "payout": 200,
+        "timestamp": "2026-02-12T21:41:46.453Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-12T21:41:46.935Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-12T21:41:46.937Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 26,
+        "payout": 2600,
+        "timestamp": "2026-02-12T21:41:47.626Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-12T21:41:47.642Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-12T21:41:48.036Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-12T21:41:48.504Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 26,
+        "payout": 2600,
+        "timestamp": "2026-02-12T21:41:48.918Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 26,
+        "payout": 2600,
+        "timestamp": "2026-02-12T21:41:49.786Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 26,
+        "payout": 2600,
+        "timestamp": "2026-02-12T21:41:49.935Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-12T21:41:50.240Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-12T21:41:50.392Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-12T21:41:50.720Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 2,
+        "payout": 200,
+        "timestamp": "2026-02-12T21:41:50.870Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-12T21:41:51.003Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 4,
+        "payout": 400,
+        "timestamp": "2026-02-12T21:41:51.653Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 20,
+        "timestamp": "2026-02-12T21:41:51.868Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 12920,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 2584,
+        "timestamp": "2026-02-12T21:42:27.424Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 9,
+        "payout": 900,
+        "timestamp": "2026-02-13T01:07:22.884Z"
+      },
+      {
+        "type": "slots",
+        "reels": [
+          "🍌",
+          "🍊",
+          "🍌"
+        ],
+        "multiplier": 5,
+        "wager": 10,
+        "won": true,
+        "winnings": 50,
+        "timestamp": "2026-02-13T01:19:54.479Z"
+      },
+      {
+        "type": "mines",
+        "difficulty": "medium",
+        "safeCount": 0,
+        "multiplier": "1.00",
+        "wager": 12,
+        "winnings": 12,
+        "won": true,
+        "timestamp": "2026-02-13T01:22:35.719Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 3000,
+        "won": true,
+        "playerValue": 21,
+        "dealerValue": 17,
+        "winnings": 6000,
+        "timestamp": "2026-02-13T01:47:21.069Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 6000,
+        "won": false,
+        "playerValue": 17,
+        "dealerValue": 17,
+        "winnings": 0,
+        "timestamp": "2026-02-13T01:47:31.444Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 100,
+        "won": true,
+        "multiplier": 4,
+        "payout": 400,
+        "timestamp": "2026-02-13T01:55:07.278Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 500,
+        "won": false,
+        "playerValue": 24,
+        "dealerValue": 12,
+        "winnings": 0,
+        "timestamp": "2026-02-13T01:55:15.377Z"
+      },
+      {
+        "type": "plinko",
+        "wager": 24,
+        "won": false,
+        "multiplier": 0.2,
+        "payout": 4.800000000000001,
+        "timestamp": "2026-02-13T01:55:37.478Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 200000,
+        "won": false,
+        "playerValue": 18,
+        "dealerValue": 19,
+        "winnings": 0,
+        "timestamp": "2026-02-13T01:56:20.457Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 200000,
+        "won": true,
+        "playerValue": 21,
+        "dealerValue": 19,
+        "winnings": 400000,
+        "timestamp": "2026-02-13T01:56:28.838Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 200000,
+        "won": false,
+        "playerValue": 26,
+        "dealerValue": 15,
+        "winnings": 0,
+        "timestamp": "2026-02-13T01:56:36.688Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 400000,
+        "won": false,
+        "playerValue": 24,
+        "dealerValue": 13,
+        "winnings": 0,
+        "timestamp": "2026-02-13T01:56:50.288Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 400000,
+        "won": true,
+        "playerValue": 18,
+        "dealerValue": 24,
+        "winnings": 800000,
+        "timestamp": "2026-02-13T01:57:05.047Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 400000,
+        "won": true,
+        "playerValue": 20,
+        "dealerValue": 25,
+        "winnings": 800000,
+        "timestamp": "2026-02-13T01:57:15.734Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 500000,
+        "won": true,
+        "playerValue": 20,
+        "dealerValue": 19,
+        "winnings": 1000000,
+        "timestamp": "2026-02-13T01:57:27.024Z"
+      },
+      {
+        "type": "blackjack",
+        "wager": 300000,
+        "won": true,
+        "playerValue": 20,
+        "dealerValue": 23,
+        "winnings": 600000,
+        "timestamp": "2026-02-13T01:57:34.960Z"
+      },
+      {
+        "type": "mines",
+        "safeCount": 5,
+        "multiplier": "NaN",
+        "wager": 100000,
+        "winnings": null,
+        "won": true,
+        "timestamp": "2026-02-13T02:26:01.784Z"
+      }
+    ],
+    "discordId": "1376554588424900799",
+    "discordTag": "1._xeno_.1#0"
+  }
+]

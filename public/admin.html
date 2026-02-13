@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Admin - Payment Tracker</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; background:#0f172a; color:#e2e8f0; padding:20px }
+    .container { max-width:1100px; margin:0 auto }
+    .header { display:flex; gap:12px; align-items:center; margin-bottom:16px }
+    input[type=text], input[type=number] { padding:8px; border-radius:6px; border:1px solid #334155; background:#020617; color:#e2e8f0 }
+    button { padding:8px 12px; border-radius:6px; border:none; background:#2563eb; color:white; cursor:pointer }
+    table { width:100%; border-collapse: collapse; margin-top:12px }
+    th, td { padding:8px; border-bottom:1px solid #1e293b; text-align:left }
+    .small { font-size:0.9em; color:#94a3b8 }
+    .history { background:#071128; padding:12px; border-radius:8px; max-height:400px; overflow:auto }
+    .modal { position:fixed; inset:0; display:flex; align-items:center; justify-content:center; background:rgba(2,6,23,0.6); }
+    .card { background:#07122a; padding:20px; border-radius:10px; width:90%; max-width:900px }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Admin Console</h2>
+      <div style="margin-left:auto; display:flex; gap:8px; align-items:center">
+        <input id="adminToken" type="text" placeholder="Paste admin token" style="width:340px">
+        <button id="saveToken">Use Token</button>
+        <button id="refreshUsers">Refresh</button>
+      </div>
+    </div>
+
+    <div id="main">
+      <div class="small">Connected as admin: <span id="adminStatus">no</span></div>
+      <table>
+        <thead>
+          <tr><th>Username</th><th>Balance</th><th>Actions</th><th>History</th></tr>
+        </thead>
+        <tbody id="usersTable"></tbody>
+      </table>
+    </div>
+
+    <div id="historyModal" class="modal" style="display:none">
+      <div class="card">
+        <h3>User History <span id="historyUser"></span></h3>
+        <div class="history" id="historyContent"></div>
+        <div style="text-align:right; margin-top:12px"><button onclick="closeHistory()">Close</button></div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  const API_URL = '/api';
+  let ADMIN_TOKEN = '';
+
+  document.getElementById('saveToken').addEventListener('click', () => {
+    ADMIN_TOKEN = document.getElementById('adminToken').value.trim();
+    document.getElementById('adminStatus').textContent = ADMIN_TOKEN ? 'yes' : 'no';
+    if (ADMIN_TOKEN) loadUsers();
+  });
+  document.getElementById('refreshUsers').addEventListener('click', () => loadUsers());
+
+  async function loadUsers() {
+    if (!ADMIN_TOKEN) return alert('Provide admin token');
+    try {
+      const res = await fetch(`${API_URL}/admin/users`, { headers: { Authorization: 'Bearer ' + ADMIN_TOKEN } });
+      if (!res.ok) return alert('Unauthorized or failed to fetch users');
+      const data = await res.json();
+      renderUsers(data.users || []);
+    } catch (e) { console.error(e); alert('Failed to load users'); }
+  }
+
+  function renderUsers(users) {
+    const tbody = document.getElementById('usersTable');
+    tbody.innerHTML = '';
+    users.forEach(u => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td><strong>${u.username}</strong><div class="small">created: ${u.createdAt || 'n/a'}</div></td>
+        <td>
+          <div style="display:flex;gap:8px;align-items:center">
+            <input type="number" step="1" min="0" value="${u.balance || 0}" style="width:120px" id="bal_${u.username}">
+            <button onclick="setBalance('${u.username}')">Set</button>
+            <button onclick="adjustBalancePrompt('${u.username}')">Adjust</button>
+          </div>
+        </td>
+        <td>
+          <div class="small">Wagered: ${u.totalWagered || 0}</div>
+          <div class="small">Won: ${u.totalWon || 0} | Lost: ${u.totalLost || 0}</div>
+        </td>
+        <td><button onclick="showHistory('${u.username}')">View</button></td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  async function setBalance(username) {
+    const input = document.getElementById('bal_' + username);
+    const value = parseInt(input.value || '0');
+    if (!confirm(`Set ${username} balance to ${value}?`)) return;
+    try {
+      const res = await fetch(`${API_URL}/admin/set-balance`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + ADMIN_TOKEN },
+        body: JSON.stringify({ username, balance: value })
+      });
+      if (!res.ok) return alert('Failed');
+      await loadUsers();
+    } catch (e) { console.error(e); alert('Error'); }
+  }
+
+  function adjustBalancePrompt(username) {
+    const deltaRaw = prompt('Enter amount to adjust (positive to add, negative to remove)');
+    if (deltaRaw === null) return;
+    const delta = parseInt(deltaRaw);
+    if (isNaN(delta)) return alert('Invalid number');
+    adjustBalance(username, delta);
+  }
+
+  async function adjustBalance(username, delta) {
+    if (!confirm(`${delta >= 0 ? 'Add' : 'Remove'} ${Math.abs(delta)} to/from ${username}?`)) return;
+    try {
+      const res = await fetch(`${API_URL}/admin/adjust-balance`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + ADMIN_TOKEN },
+        body: JSON.stringify({ username, delta })
+      });
+      if (!res.ok) return alert('Failed');
+      await loadUsers();
+    } catch (e) { console.error(e); alert('Error'); }
+  }
+
+  async function showHistory(username) {
+    if (!ADMIN_TOKEN) return alert('Provide admin token');
+    try {
+      const res = await fetch(`${API_URL}/admin/users`, { headers: { Authorization: 'Bearer ' + ADMIN_TOKEN } });
+      if (!res.ok) return alert('Failed to fetch history');
+      const data = await res.json();
+      const user = (data.users || []).find(x => x.username.toLowerCase() === username.toLowerCase());
+      if (!user) return alert('User not found');
+      document.getElementById('historyUser').textContent = username;
+      const container = document.getElementById('historyContent');
+      container.innerHTML = '';
+      (user.gameHistory || []).slice().reverse().forEach(h => {
+        const el = document.createElement('div');
+        el.style.padding = '6px 0';
+        el.innerHTML = `<div style="font-weight:600">${h.type}</div><div class="small">${JSON.stringify(h)}</div>`;
+        container.appendChild(el);
+      });
+      document.getElementById('historyModal').style.display = 'flex';
+    } catch (e) { console.error(e); alert('Error'); }
+  }
+
+  function closeHistory() { document.getElementById('historyModal').style.display = 'none'; }
+
+  // Auto-load token from sessionStorage
+  const saved = sessionStorage.getItem('admin_token');
+  if (saved) { document.getElementById('adminToken').value = saved; ADMIN_TOKEN = saved; document.getElementById('adminStatus').textContent = 'yes'; loadUsers(); }
+  document.getElementById('saveToken').addEventListener('click', () => { if (ADMIN_TOKEN) sessionStorage.setItem('admin_token', ADMIN_TOKEN); });
+</script>
+</body>
+</html>

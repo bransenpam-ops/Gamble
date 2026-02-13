@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: payment-tracker
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: ""
+    startCommand: "npm start"
+    envVars:
+      # Set sensitive values in Render dashboard (do NOT commit secrets here)
+      - key: AUTH_TOKEN
+        value: ""
+      - key: PORT
+        value: "3000"
