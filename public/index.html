@@ -1107,14 +1107,9 @@
         <div style="margin: 20px 0; color: #64748b; font-size: 0.9em;">
           ━━━━━━━━━━━━━━━━━━━━━━━
         </div>
-        <p style="color: #64748b; font-size: 0.85em; margin-bottom: 15px;">Or use traditional login:</p>
       </div>
       
-      <!-- Traditional Username Login -->
-      <div id="usernameLoginSection">
-        <input type="text" id="loginUsername" class="login-input" placeholder="Your Minecraft username" autocomplete="off">
-        <button class="login-btn" onclick="login()">Enter Casino</button>
-      </div>
+      <!-- Traditional login removed — Discord-only login enabled -->
       
       <!-- Account Linking Section (shown after Discord auth) -->
       <div id="linkingSection" style="display: none;">
@@ -2045,7 +2040,6 @@
       clearInterval(linkingPollInterval);
       pendingLinkingCode = null;
       document.getElementById('discordLoginSection').style.display = 'block';
-      document.getElementById('usernameLoginSection').style.display = 'block';
       document.getElementById('linkingSection').style.display = 'none';
       document.getElementById('loginMessage').textContent = 'Secure Account Access';
     }
@@ -2061,39 +2055,7 @@
       }
     }
 
-    async function login() {
-      console.log('Login button clicked');
-      const username = document.getElementById('loginUsername').value.trim();
-      console.log('Username:', username);
-      
-      if (!username) {
-        showMessage('Please enter a username', 'error');
-        return;
-      }
-
-      try {
-        console.log('Sending login request to:', `${API_URL}/register`);
-        const response = await fetch(`${API_URL}/register`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ username })
-        });
-        console.log('Response status:', response.status);
-        const result = await response.json();
-        console.log('Response data:', result);
-        
-        if (response.ok && result.user) {
-          console.log('Login successful, loading user...');
-          localStorage.setItem('currentUser', JSON.stringify(result.user));
-          loadUser(username);
-        } else {
-          showMessage(result.error || 'Login failed', 'error');
-        }
-      } catch (error) {
-        console.error('Login error:', error);
-        showMessage('Login failed: ' + error.message, 'error');
-      }
-    }
+    // Traditional username login removed. Use Discord login only.
 
     async function loadUser(username) {
       console.log('Loading user:', username);
@@ -3179,7 +3141,8 @@
         localStorage.removeItem('currentUser');
         document.getElementById('loginScreen').style.display = 'flex';
         document.getElementById('mainLayout').classList.remove('active');
-        document.getElementById('loginUsername').value = '';
+        // Clear any legacy username fields if present
+        try { const lu = document.getElementById('loginUsername'); if (lu) lu.value = ''; } catch(e){}
       }
     }
 
