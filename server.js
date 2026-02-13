@@ -324,33 +324,9 @@ app.post('/api/reset', (req, res) => {
 
 // Get or create user account
 app.post('/api/register', (req, res) => {
-  const { username } = req.body;
-
-  if (!username || username.trim() === '') {
-    return res.status(400).json({ error: 'Username required' });
-  }
-
-  // Check if user already exists
-  const existing = users.find(u => u.username.toLowerCase() === username.toLowerCase());
-  if (existing) {
-    return res.json({ user: existing });
-  }
-
-  const newUser = {
-    id: uuidv4(),
-    username: username.trim(),
-    balance: 0,
-    totalWagered: 0,
-    totalWon: 0,
-    totalLost: 0,
-    createdAt: new Date().toISOString(),
-    gameHistory: []
-  };
-
-  users.push(newUser);
-  saveUsers();
-
-  res.json({ user: newUser });
+  // Traditional username registration/login is disabled.
+  // Use Discord OAuth to authenticate and link accounts instead.
+  res.status(403).json({ error: 'Traditional login disabled. Please use Discord login.' });
 });
 
 // ==================== DISCORD OAUTH ====================
